@@ -1,0 +1,227 @@
+@charset "UTF-8";
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: "맑은 고딕";
+    color: #222328;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body,html{
+    max-width: 100%;
+    background-color: #ffffff;
+}
+button{
+    cursor: pointer;
+}
+.wrapper{
+    width: 740px;
+    height: 650px;
+    float: left;
+}
+.clear{
+    clear: both;
+    position: inherit;
+}
+header{
+    width: 260px;
+    height: 650px;
+    float: left;
+}
+.logo>a>img{
+    margin: 30px;
+}
+nav{
+    text-align: center;
+}
+.mainmenu{
+    margin-top: 30px;
+    width: 200px;
+    position: relative;
+}
+.mainmenu>li{
+    width: 200px;
+    padding: 10px 0px;
+    transition: all 0.4s;
+}
+.mainmenu>li:hover{
+    background-color: #ff8500;
+}
+.submenu{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    background-color: #ffffff;
+    display: none;
+}
+.submenu>li{
+    padding: 10px 0px;
+    transition: all 0.4s;
+}
+.submenu>li:hover{
+    background-color: #ffb361;
+}
+
+
+
+#imgslide{
+    height: 350px;
+}
+
+#imgslide img{
+    width: 740px;
+    height: 350px;
+    position: absolute;
+}
+
+
+#contents{
+    height: 200px;
+}
+#noticeNgallery{
+    width: 240px;
+    float: left;
+    display: inline-block;
+    position: relative;
+}
+#noticeNgallery>h2 button{
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 16px;
+    float: left;
+}
+#noticeNgallery>h2 button:hover{
+    background-color: #ff8500;
+    color: #222328 !important;
+}
+#noticeBtn{
+    color: #222328;
+    position: relative;
+}
+#galleryBtn{
+    position: absolute;
+    top: 0;
+    left: 80px;
+    color: lightgray;
+}
+#notice{
+    width: 100%;
+    height: 160px;
+    font-size: 0.8em;
+    border-collapse: collapse;
+    text-align: center;
+}
+#notice tr:nth-child(2n){
+    background-color: #ffb361;
+}
+.item{
+    width: 80%;
+    float: left;
+}
+.date{
+    width: 20%;
+    float: right;
+}
+#gallery{
+    display: none;
+    width: 100%;
+}
+.galleryimg{
+    padding-top: 30px;
+    float: left;
+}
+.galleryimg img{
+    width: 33.333%;
+    height: 100px;
+    display: block;
+    float: left;
+}
+#banner{
+    width: 250px;
+    display: inline-block;
+}
+#banner>a>img{
+    width: 250px;
+    height: 200px;
+}
+#barogagi{
+    width: 250px;
+    float: right;
+    display: inline-block;
+}
+#barogagiimg{
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+}
+#barogagiimg>a>img{
+    width: 250px;
+}
+
+
+
+footer{
+    background-color: #ff8500;
+    height: 100px;
+}
+#footertext{
+    width: 450px;
+    float: right;
+    display: inline-block;
+    margin-top: -70px;
+    margin-right: 30px;
+    font-size: 12px;
+}
+.footermenu{
+    width: 450px;
+}
+.footermenu>li{
+    width: 150px;
+    text-align: center;
+    float: left;
+}
+.copyright{
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+
+#modal{
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    position: absolute;
+    display: none;
+}
+#modalcontent{
+    width: 400px;
+    height: 400px;
+    background-color: #ffffff;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 100px;
+    border: 1px solid #ff8500;
+}
+#modalcontent>h2{
+    padding: 20px 20px 0px 20px;
+}
+#modalcontent>p{
+    padding: 25px;
+}
+.modalbutton{
+    margin-top: 5px;
+    padding: 10px;
+    width: 80px;
+    background-color: #ff8500;
+    border: none;
+    border-radius: 10px;
+}
+.modalbutton:hover{
+    background-color: #ffb361;
+}
